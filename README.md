@@ -7,13 +7,9 @@ Bash script for diagnosing Exim mail issues on cPanel/WHM servers.
 - cPanel/WHM server (CentOS/AlmaLinux/CloudLinux)
 - `curl`, `perl`, `dig` (bind-utils)
 
-## Run directly (private repo)
-```bash
-export GITHUB_TOKEN="your_token_here"
-curl -s -H "Authorization: token $GITHUB_TOKEN" \
-  https://raw.githubusercontent.com/YOUR_ORG/exim-troubleshoot/main/exim_troubleshoot.sh \
-  | sudo bash
-```
+## Run directly 
+curl -s https://raw.githubusercontent.com/Exa-Server-team/exim-troubleshoot/main/exim_troubleshoot.sh | sudo bash
+
 
 ## What it checks
 1. Server hostname, PTR/FCrDNS validation
