@@ -1,15 +1,15 @@
 # Exim Mail Troubleshooter
 
-Bash script for diagnosing Exim mail issues on cPanel/WHM servers.
+Bash script for diagnosing Exim mail issues on Linux cPanel/WHM and Plesk servers.
 
 ## Requirements
 - Must run as root
-- cPanel/WHM server (CentOS/AlmaLinux/CloudLinux)
+- cPanel/WHM server/plesk (CentOS/AlmaLinux/CloudLinux)
 - `curl`, `perl`, `dig` (bind-utils)
 
 ## Run directly 
 curl -s https://raw.githubusercontent.com/Exa-Server-team/exim-troubleshoot/main/exim_troubleshoot.sh | sudo bash
-
+curl -s https://raw.githubusercontent.com/Exa-Server-team/exim-troubleshoot/main/postfix_troubleshoot.sh | sudo bash
 
 ## What it checks
 1. Server hostname, PTR/FCrDNS validation
