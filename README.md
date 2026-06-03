@@ -11,7 +11,7 @@ Bash script for diagnosing Exim mail issues on Linux cPanel/WHM and Plesk server
 ## cPanel
 curl -s https://raw.githubusercontent.com/Exa-Server-team/exim-troubleshoot/main/exim_troubleshoot_v3.sh | sudo bash
 
-curl -s https://raw.githubusercontent.com/Exa-Server-team/exim-troubleshoot/main/exim_troubleshoot_v3.sh | sudo bash -s  --with-msp
+curl -s https://raw.githubusercontent.com/Exa-Server-team/exim-troubleshoot/main/exim_troubleshoot_v3.sh | sudo bash -s -- --with-msp
 
 ## Plesk
 curl -s https://raw.githubusercontent.com/Exa-Server-team/exim-troubleshoot/main/postfix_troubleshoot_v3.sh | sudo bash
