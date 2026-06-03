@@ -1,6 +1,6 @@
 # Exim Mail Troubleshooter
 
-Bash script for diagnosing Exim mail issues on Linux cPanel/WHM and Plesk servers.
+Bash script for diagnosing Exim mail status on Linux cPanel/WHM and Plesk servers.
 
 ## Requirements
 - Must run as root
